@@ -6,8 +6,6 @@ pub fn render(factory: impl GuiFactory) {
     let checkbox1 = factory.create_checkbox();
     let checkbox2 = factory.create_checkbox();
 
-    use abstract_factory::{Button, Checkbox};
-
     button1.press();
     button2.press();
     checkbox1.switch();

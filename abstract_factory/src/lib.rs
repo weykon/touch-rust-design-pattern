@@ -1,7 +1,6 @@
 pub trait Button {
     fn press(&self);
 }
-
 pub trait Checkbox {
     fn switch(&self);
 }
