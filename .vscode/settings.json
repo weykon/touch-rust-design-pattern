@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./abstract_factory/Cargo.toml",
+        "./abstract_factory/macos-gui/Cargo.toml",
+        "./abstract_factory/windows-gui/Cargo.toml",
+    ]
+}
