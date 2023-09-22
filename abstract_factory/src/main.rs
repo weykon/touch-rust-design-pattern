@@ -6,7 +6,7 @@ use macos_gui::factory::MacFactory;
 use windows_gui::factory::WindowsFactory;
 
 fn main() {
-    let windows = true;
+    let windows = false;
 
     if windows {
         render(WindowsFactory);
